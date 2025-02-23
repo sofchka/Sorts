@@ -14,6 +14,8 @@ The following sorting algorithms are included:
 5. **Selection Sort**
 6. **Shaker Sort**
 7. **Merge Sort**
+8. **Bubble Sort Optimized**
+9. **Bubble Sort Recursive**
 
 ## Compilation Instructions
 
@@ -29,30 +31,38 @@ Here's an example of the output when running the program:
 
 ```
 Bubble Sort:
-Before: 110 0 1 21 12 33333 -1 -1
-After: -1 -1 0 1 12 21 110 33333
+Before: 110 0 1 21 12 3 -1 333 33333 3333333 1
+After: -1 0 1 1 3 12 21 110 333 33333 3333333
 
 Insertion Sort:
-Before: 110 0 1 21 12 33333 -1 -1
-After: -1 -1 0 1 12 21 110 33333
+Before: 110 0 1 21 12 3 -1 333 33333 3333333 1
+After: -1 0 1 1 3 12 21 110 333 33333 3333333
 
 Heap Sort:
-Before: 110 0 1 21 12 33333 -1 -1
-After: -1 -1 0 1 12 21 110 33333
+Before: 110 0 1 21 12 3 -1 333 33333 3333333 1
+After: -1 0 1 1 3 12 21 110 333 33333 3333333
 
 Quick Sort:
-Before: 110 0 1 21 12 33333 -1 -1
-After: -1 -1 0 1 12 21 110 33333
+Before: 110 0 1 21 12 3 -1 333 33333 3333333 1
+After: -1 0 1 1 3 12 21 110 333 33333 3333333
 
 Selection Sort:
-Before: 110 0 1 21 12 33333 -1 -1
-After: -1 -1 0 1 12 21 110 33333
+Before: 110 0 1 21 12 3 -1 333 33333 3333333 1
+After: -1 0 1 1 3 12 21 110 333 33333 3333333
 
 Shaker Sort:
-Before: 110 0 1 21 12 33333 -1 -1
-After: -1 -1 0 1 12 21 110 33333
+Before: 110 0 1 21 12 3 -1 333 33333 3333333 1
+After: -1 0 1 1 3 12 21 110 333 33333 3333333
 
 Merge Sort:
-Before: 110 0 1 21 12 33333 -1 -1
-After: -1 -1 0 1 12 21 110 33333
+Before: 110 0 1 21 12 3 -1 333 33333 3333333 1
+After: -1 0 1 1 3 12 21 110 333 33333 3333333
+
+Bubble Sort Opt:
+Before: 110 0 1 21 12 3 -1 333 33333 3333333 1
+After: -1 0 1 1 3 12 21 110 333 33333 3333333
+
+Bubble Sort Recurs:
+Before: 110 0 1 21 12 3 -1 333 33333 3333333 1
+After: -1 0 1 1 3 12 21 110 333 33333 3333333
 ```
