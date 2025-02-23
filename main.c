@@ -45,6 +45,8 @@ int main()
     test_sorting_algorithm(selection_sort, "Selection Sort");
     test_sorting_algorithm(shaker_sort, "Shaker Sort");
     test_sorting_algorithm(merge_sort_wrapper, "Merge Sort");
+    test_sorting_algorithm(bubble_sort_opt, "Bubble Sort Opt");
+    test_sorting_algorithm(bubble_sort_recurs, "Bubble Sort Recurs");
 
     return 0;
 }
